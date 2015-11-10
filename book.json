@@ -1,11 +1,12 @@
 {
-    "gitbook": ">1.x.x",
+    "gitbook": ">1.1.1",
     "title": "Tutorial de Puredata em Inglês 3.1",
     "language": "en",
-    "description": "Por Alexandre Porres"
+    "description": "Por Alexandre Porres",
     "plugins": ["addcssjs", "webpd"],
     "pluginsConfig": {
       "addcssjs": {
-        "js": ["js/webpd-latest.js"],
-    }
+        "js": ["js/webpd-latest.js"]
+        }
+    } 
 }
