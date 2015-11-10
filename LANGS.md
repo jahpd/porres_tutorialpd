@@ -1,2 +1,2 @@
 * [Português](pt-br/)
-* [English](en/)x
+* [English](en/)
