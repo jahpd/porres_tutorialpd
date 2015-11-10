@@ -5,8 +5,8 @@
     "description": "Por Alexandre Porres",
     "plugins": ["addcssjs", "webpd@0.0.11"],
     "pluginsConfig": {
-      "addcssjs": {
-        "js": ["js/webpd-latest.js"]
+      "addcssjs": 
+        "js": ["/en/js/webpd-latest.js"]
         }
     },
     "structure": {
