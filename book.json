@@ -9,4 +9,7 @@
         "js": ["js/webpd-latest.js"]
         }
     } 
+    "structure": {
+        "readme": "en/01.Introduction/1.Presentation/1.Structure.md"
+    }
 }
