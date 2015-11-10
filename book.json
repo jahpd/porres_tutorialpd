@@ -7,5 +7,6 @@
     "pluginsConfig": {
       "addcssjs": {
         "js": ["js/webpd-latest.js"]
-    }
+        }
+    } 
 }
