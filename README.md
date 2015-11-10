@@ -1,4 +1,5 @@
-My Awesome Book
-=======
+# Puredata Tutorial 
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+O autor [original](https://sites.google.com/site/porres/pd) deste trabalho é o Alexandre Porres. Creio ser um dos melhores tutoriais de PD que já foi feito. Este projeto busca transpor seus resultados para um ambiente web usando o [WebPD](https://github.com/sebpiq/WebPd).
+
+A intenção deste trabalho é colocar toda a documentação em um formato mais dinâmico e interativo. Neste sentido, o webpd pode ser uma boa ferramenta de aprendizagem ao vivo.

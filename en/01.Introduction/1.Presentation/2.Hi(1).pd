@@ -1,0 +1,10 @@
+#N canvas 1 50 638 749 10;
+#X text 12 95 inlet-->;
+#X text 10 11 inlet-->;
+#X text 3 33 outlet-->;
+#X obj 72 106 print;
+#X msg 72 22 Hello_World;
+#X text 168 19 <-- message box;
+#X text 81 67 <-- conection cord;
+#X text 114 105 <-- object box*;
+#X connect 4 0 3 0;
