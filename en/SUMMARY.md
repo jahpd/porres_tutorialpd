@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](/en/01.Introduction/1.Presentation/1.Structure.md)
+* Introduction
     * [Structure](/en/01.Introduction/1.Presentation/1.Structure.md)
     * [Hi](/en/01.Introduction/1.Presentation/2.Hi.md)
     * [Messages](/en/01.Introduction/1.Presentation/3.Messages.md)
