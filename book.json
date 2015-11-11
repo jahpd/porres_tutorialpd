@@ -4,5 +4,5 @@
     "language": "en",
     "authors": ["Porres", "Lunhani"],
     "description": "Tutorial original por Alexandre Porres - Adaptação para WebPD por Guilherme Lunhani",
-    "plugins": ["webpd@0.0.2"]
+    "plugins": ["webpd@0.0.21"]
 }
