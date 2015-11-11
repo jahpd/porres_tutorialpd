@@ -1,3 +1,9 @@
 # Puredata Tutorial 
 
-Original authors's [work](https://sites.google.com/site/porres/pd) is Alexandre Porres. I believe that this is the one of most complete PD tutorial. This book hope transpose results in a [WebPD](https://github.com/sebpiq/WebPd) environment.
+Original authors's work is Alexandre Porres. I believe that this is the one of most complete PD tutorials made. This book "translate" results in a WebPD environment.
+
+Below, a simple renderized patch in svg (without render with audio).
+
+{% patch %} /en/01.Introduction/1.Presentation/Hi_1.pd {% endpatch %}
+
+So, i think i need contributions.
