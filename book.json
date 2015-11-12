@@ -3,8 +3,8 @@
     "title": "Tutorial de Puredata em Inglês 3.1",
     "language": "en",
     "description": "Tutorial original por Alexandre Porres - Adaptação para WebPD por Guilherme Lunhani",
-    "plugins": ["webpd@0.0.21"],
-    "version": "0.0.1",
+    "plugins": ["webpd@0.0.21", "webpd_porres_examples@0.0.1"],
+    "version": "0.0.11",
     "variables": {
         "authors": [
 	    { 
@@ -19,13 +19,14 @@
 	"webpd": {"website": "https://github.com/sebpiq/WebPd"},
 	"todos": {
 	    "en":[
-		{"name": "Conversion", "description": "Convert PureData patchs to markdown files. You can have it [here](https://sites.google.com/site/porres/pd). The work is to separate patches in snippets: the comments will be changed to Markdown format texts, and chunks of codes will be new patches. If you did not understand a thing, download the project and see source. The text isn't complicated and is very intuitive."},
+		{"name": "Conversion", "description": "Convert PureData patchs to markdown files. You can have it [here](https://sites.google.com/site/porres/pd). The work is to separate patches in snippets: the comments will be changed to Markdown format texts, and chunks of codes will be new patches. The patches source is [here](https://www.github.com/jahpd/gitbook-plugin-webpd_porres_examples) as separated project, and modify them will modify examples in this book."},
 		{"name": "Conversion 2", "description": "Gitbook can export a webpage to a printable version. Thinking on this, runnable patchs need a special treatment. (1) Responsive website (you can read this on Android or iOS tablet); (2) in a printable version (pdf, mobi, etc), runnable patches don't work (it's obivious that gitbook don't print [paper speakers](http://www.youtube.com/watch?v=y1F5Gg4bG3o), but someone can hack this...), so is necessary that only SVG representations will be added on `<script>`s."},
 		{"name": "Translation", "description": "We think that multilanguage tutorial is a good approach. If you do not know anything about PD, but know some other language other than english, you will be welcome."},
 		{"name": "Improve [gitbook-plugin-webpd](https://www.github.com/jahpd/gitbook-plugin-webpd) library", "description": "This is the core of book; uses [WebPD](https://github.com/sebpiq/WebPd) to render PD patchs. The current development only render SVG versions of GUI side. We need help to execute audio examples. Here is the [source](https://www.github.com/jahpd/gitbook-plugin-webpd)"}
 	    ]
 	},
 	"changelog":[
+	    {"version": "0.0.11", "description": "fixed bugs that won't show patches"},
 	    {"version": "0.0.1", "description": "added this guideline"} 
 	]
     }
