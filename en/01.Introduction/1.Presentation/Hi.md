@@ -1,6 +1,6 @@
 # Hi
 
-In Pure Data:;We program by conecting "boxes", from "outlets" to "inlets"!;
+In Pure Data, we program by conecting "boxes", from "outlets" to "inlets"!
 
 ## Click on the box that says "Hello_World!"
 
@@ -12,8 +12,10 @@ The `print` object prints messages at the terminal window (check it there).
 
 {% patch %}Hi_2.pd{% endpatch %}
 
-An empty message box does not send anything. That is why the print object does not print anything when we click it.;
+## An empty message box does not send anything. 
+
+That is why the print object does not print anything when we click it.;
 
 {% patch %}Hi_3.pd{% endpatch %}
 
-[Download](https://raw.githubusercontent.com/jahpd/gitbook-plugin-webpd_porres_examples/master/assets/Hi_1.pd)
+[Download complete patch](https://raw.githubusercontent.com/jahpd/gitbook-plugin-webpd_porres_examples/master/assets/H.pd)
