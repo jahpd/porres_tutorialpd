@@ -81,7 +81,7 @@ Or
 
 ## Testing
 
-This is from Hi.pd example in _01.Introduction/1.Presentation/Hi.pd_. Uses a `print` object
+This is (or i hope so) the Hi.pd file from original example in _01.Introduction/1.Presentation/Hi.pd_ . Uses a `print` object to print a Hello world message:
 
 {% patch %}Hi_1.pd{% endpatch %}
 
@@ -97,6 +97,10 @@ Is invoked as:
 
     {% patch %}Hi_2.pd{% endpatch %}
 
-To assign a patch, you need to modify them [here](https://www.github.com/jahpd/gitbook-plugins-webpd_porres_examples), and update `index.js` that assign where patches are allowed.
+And so on... (this where we realy need pd developers)
+
+To assign a patch, you need to modify them [here](https://www.github.com/jahpd/gitbook-plugins-webpd_porres_examples), and update `index.js` that assign where patches are located.
+
+    
 
 
