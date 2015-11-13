@@ -2,8 +2,10 @@
 
 Sumário do gitbook do Puredata
 
-* [README](README.md)
+* [Developer Guidelines](README.md)
 
-* [Introduction](en/01.Introduction/1.Presentation/README.md)
+* [Introduction](chapter1.md)
 
-  * [Hi](en/01.Introduction/1.Presentation/Hi.md)
+  * [Hi](part1/section1.md)
+
+  * [Messages](part1/section2.md)

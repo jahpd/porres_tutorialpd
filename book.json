@@ -3,8 +3,8 @@
     "title": "Tutorial de Puredata em Inglês 3.1",
     "language": "en",
     "description": "Tutorial original por Alexandre Porres - Adaptação para WebPD por Guilherme Lunhani",
-    "plugins": ["webpd@0.0.22", "webpd_porres_examples@0.0.1"],
-    "version": "0.0.11",
+    "plugins": ["webpd@0.0.23", "webpd_porres_examples@0.0.11"],
+    "version": "0.0.12",
     "variables": {
         "authors": [
 	    { 
@@ -25,9 +25,17 @@
 		{"name": "Improve [gitbook-plugin-webpd](https://www.github.com/jahpd/gitbook-plugin-webpd) library", "description": "This is the core of book; uses [WebPD](https://github.com/sebpiq/WebPd) to render PD patchs. The current development only render SVG versions of GUI side. We need help to execute audio examples. Here is the [source](https://www.github.com/jahpd/gitbook-plugin-webpd)"}
 	    ]
 	},
-	"changelog":[
-	    {"version": "0.0.11", "description": "fixed bugs that won't show patches"},
-	    {"version": "0.0.1", "description": "added this guideline"} 
-	]
+	"changelog":{
+	    "en":[
+		{"version": "0.0.12", "description": "fixed bugs that won't show patches in another locations. Added some another subchapters. But was checked that is necessary to reload page show patchs properly "},
+		{"version": "0.0.11", "description": "fixed bugs that won't show patches in main server"},
+		{"version": "0.0.1", "description": "added this guideline"} 
+	    ],
+	    "pt-br":[
+		{"version": "0.0.12", "description": "fixado bugs que não mostravam os patchs em outras localizações. Adicionados alguns subcapítulos. Foi checado que é necessário recarregar as páginas para mostrar os patchs apropriadamente."},
+		{"version": "0.0.11", "description": "fixado bugs que não mostravam os patchs no servidor principal"},
+		{"version": "0.0.1", "description": "adicionado este guia."} 
+	    ]
+	}
     }
 }

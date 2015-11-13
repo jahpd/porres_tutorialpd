@@ -69,7 +69,7 @@ Or
 
 ## Changelog
 
-{% for log in book.changelog %}
+{% for log in book.changelog.en %}
   - {{ log.version }}: {{ log.description }}
 {% endfor %}
 
@@ -83,23 +83,15 @@ Or
 
 This is (or i hope so) the Hi.pd file from original example in _01.Introduction/1.Presentation/Hi.pd_ . Uses a `print` object to print a Hello world message:
 
-{% patch %}Hi_1.pd{% endpatch %}
+{% patch %}porres_examples/Hi_1.pd{% endpatch %}
 
 You can invoke a PD patch like the below:
 
-    {% patch %}Hi_1.pd{% endpatch %}
+    {% patch %}porres_examples/Hi_1.pd{% endpatch %}
 
-This patch:
+To assign a new patch, you need have a "subplugin", where the name follows  "gitbook-plugins-webpd_"`...`. Lunhani is working on plugin that can render many different resources. In specific case of this tutorial, you will need to modify them [here](https://www.github.com/jahpd/gitbook-plugins-webpd_porres_examples).
 
-{% patch %}Hi_2.pd{% endpatch %}
-
-Is invoked as:
-
-    {% patch %}Hi_2.pd{% endpatch %}
-
-And so on... (this where we realy need pd developers)
-
-To assign a patch, you need to modify them [here](https://www.github.com/jahpd/gitbook-plugins-webpd_porres_examples), and update `index.js` that assign where patches are located.
+This subplugin was defined in `book.json`.
 
     
 
